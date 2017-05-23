@@ -36,7 +36,7 @@ export const onAuthChange = (isAuthenticated) => {
         browserHistory.replace('/');
     }
 
-    console.log('isAuthenticated', isAuthenticated);
+    // console.log('isAuthenticated', isAuthenticated);
 };
 
 export const routes = (
